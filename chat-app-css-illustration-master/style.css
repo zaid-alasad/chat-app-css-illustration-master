@@ -1,0 +1,48 @@
+.attribution { 
+    font-size: 11px; text-align: center;
+ }
+
+ .attribution a {
+    
+    color: hsl(228, 45%, 44%); 
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.rightPiller{
+    width: 25%;
+    height: 800px;
+    background-color: hsl(264, 100%, 61%);
+    border-bottom-left-radius: 300px;
+    border-bottom-right-radius: 300px;
+}
+
+.mobilePhone{
+    background-color: black;
+    width: 300px;
+    height: 500px;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    position: absolute;
+    right: 1250px;
+    top: 250px;
+    border-radius: 40px;
+}
+
+.thePurpleTop{
+    background-color: hsl(293, 100%, 63%);
+    height: 12%;
+    width: 90%;
+    position: absolute;
+    display: flex;
+    border-top-left-radius:20px ;
+    border-top-right-radius: 20px;
+    top: 20px;
+    right: 14px;
+}
+
+.thePurpleTop img{
+    border-radius: 50%;
+}
